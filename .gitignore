@@ -1,0 +1,6 @@
+*.a
+reference
+assets
+src/local_notes
+src_zlib_temp
+generated
