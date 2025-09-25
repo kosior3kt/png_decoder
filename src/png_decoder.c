@@ -557,7 +557,7 @@ static const void preprocess(const data_chunk_s* _data, png_external_context_s* 
 	}
 
 	for(int i = 0; i < _ret_ctx->height; ++i) {
-		asm("nop": : :);
+		asm("nop");
 	}
 	LOG(LOG_ERROR, "unfinished code part");
 
